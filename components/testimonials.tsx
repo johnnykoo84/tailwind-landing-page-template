@@ -1,5 +1,5 @@
 import Image from "next/image";
-import TestimonialImage from "@/public/images/testimonial.jpg";
+import TestimonialImage from "@/public/images/profile_koo.png";
 
 export default function Testimonials() {
   return (
@@ -44,12 +44,12 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">
-              벌써 100여곳의 기업 계약서 검토 담당자 분들이 관심을 보이고
-              계세요.
+              벌써 10여곳의 기업 계약서 검토 담당자 분들이 베타 테스터 신청을 해
+              주셨어요.
             </h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              계약서 검토 업무 때문에 퇴사할 것 같다고 난리입니다. 저희가 이
-              문제를 풀어드리는 제품을 언능 만들어서 갖다드릴게요.
+              고객께서 가장 큰 고통을 가지고 계신 부분부터 기능들을 점진적으로
+              개발 중에 있습니다.
             </p>
           </div>
 
@@ -127,14 +127,14 @@ export default function Testimonials() {
               {/* Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <svg
+                  {/* <svg
                     className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
                     viewBox="0 0 64 64"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
-                  </svg>
+                  </svg> */}
                   <Image
                     className="relative rounded-full"
                     src={TestimonialImage}
@@ -144,20 +144,24 @@ export default function Testimonials() {
                   />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ 계약서 업무 때문에 흰머리가 늘어났고 탈모 증상까지 왔었어요.
-                  의도한 것인지 실수인지 모르겠지만 고객사에선 자꾸 이전 버전
-                  계약서 파일을 보내서 일정이 지연된 것이 한두번이 아니구요.
-                  일을 시작해야 하는데 계약 업무가 마무리되지 않아 늘
-                  고통받아왔거든요. 저희 뿐 아니라 고객사도 쿠스랩 CLM 제품을
-                  빨리 도입해서 이 고통에서 벗어나고 싶어요. “
+                  “보통 계약서 업무를 진행하면 갑을 간 실무진과 각 사이드의
+                  법무팀 담당자들이 계약서를 주로 주고 받게 됩니다. 이렇게 되면
+                  총 4명의 검토자가 계약서 파일을 서로 주고 받으며 수정하게
+                  되어요. 누가 어떤 부분을 왜 수정했는지 표시하는게 늘 쉽지
+                  않았구요. 이메일에 수정된 계약서 파일을 매 번 첨부하는 것도 늘
+                  번거로웠어요. 실수로 이전 버전의 수정 계약서를 첨부하는 것은
+                  늘 일어나는 실수에요. 지금 계약서 검토를 누가 어느 부분을 하고
+                  있는지 알기 위해선 높은 소통 비용도 발생하게 되어요. 이런
+                  계약서 검토 협의 업무를 좀 더 효율적으로 할 수 있다는 생각이
+                  들어서 이 프로젝트를 시작하게 되었습니다.“
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
-                  김영희
+                  구일모
                 </cite>
                 <div className="text-gray-600">
                   <span>CEO & Co-Founder</span>{" "}
                   <a className="text-blue-600 hover:underline" href="#0">
-                    @주식회사 가카오
+                    Kooslab
                   </a>
                 </div>
               </div>

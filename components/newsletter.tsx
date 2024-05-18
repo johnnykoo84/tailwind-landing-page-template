@@ -1,134 +1,15 @@
 export default function Newsletter() {
   return (
-    <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pb-12 md:pb-20">
-          {/* CTA box */}
-          <div
-            className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
-            data-aos="zoom-y-out"
-          >
-            {/* Background illustration */}
-            <div
-              className="absolute right-0 bottom-0 pointer-events-none hidden lg:block"
-              aria-hidden="true"
-            >
-              <svg width="428" height="328" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <radialGradient
-                    cx="35.542%"
-                    cy="34.553%"
-                    fx="35.542%"
-                    fy="34.553%"
-                    r="96.031%"
-                    id="ni-a"
-                  >
-                    <stop stopColor="#DFDFDF" offset="0%" />
-                    <stop stopColor="#4C4C4C" offset="44.317%" />
-                    <stop stopColor="#333" offset="100%" />
-                  </radialGradient>
-                </defs>
-                <g fill="none" fillRule="evenodd">
-                  <g fill="#FFF">
-                    <ellipse
-                      fillOpacity=".04"
-                      cx="185"
-                      cy="15.576"
-                      rx="16"
-                      ry="15.576"
-                    />
-                    <ellipse
-                      fillOpacity=".24"
-                      cx="100"
-                      cy="68.402"
-                      rx="24"
-                      ry="23.364"
-                    />
-                    <ellipse
-                      fillOpacity=".12"
-                      cx="29"
-                      cy="251.231"
-                      rx="29"
-                      ry="28.231"
-                    />
-                    <ellipse
-                      fillOpacity=".64"
-                      cx="29"
-                      cy="251.231"
-                      rx="8"
-                      ry="7.788"
-                    />
-                    <ellipse
-                      fillOpacity=".12"
-                      cx="342"
-                      cy="31.303"
-                      rx="8"
-                      ry="7.788"
-                    />
-                    <ellipse
-                      fillOpacity=".48"
-                      cx="62"
-                      cy="126.811"
-                      rx="2"
-                      ry="1.947"
-                    />
-                    <ellipse
-                      fillOpacity=".12"
-                      cx="78"
-                      cy="7.072"
-                      rx="2"
-                      ry="1.947"
-                    />
-                    <ellipse
-                      fillOpacity=".64"
-                      cx="185"
-                      cy="15.576"
-                      rx="6"
-                      ry="5.841"
-                    />
-                  </g>
-                  <circle fill="url(#ni-a)" cx="276" cy="237" r="200" />
-                </g>
-              </svg>
-            </div>
-
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
-              {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">
-                  제품 관련 업데이트 소식을 정기적으로 받고 싶으신가요?
-                </h3>
-                <p className="text-gray-300 text-lg mb-6">
-                  쿠스랩 CLM이 어떤 문제를 어떻게 풀고 있는지, 새로운 기능 배포
-                  관련 소식들을 받아보세요.
-                </p>
-
-                {/* CTA form */}
-                <form className="w-full lg:w-auto">
-                  <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                    <input
-                      type="email"
-                      className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500"
-                      placeholder="Your email…"
-                      aria-label="Your email…"
-                    />
-                    <a
-                      className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
-                      href="#0"
-                    >
-                      구독하기
-                    </a>
-                  </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">
-                    스팸성 내용은 보내지 않습니다. 언제든 구독을 해지할 수
-                    있습니다.
-                  </p>
-                </form>
-              </div>
-            </div>
-          </div>
+    <section className="flex items-center justify-center">
+      <div className="max-w-6xl mx-auto sm:mx-4 px-4 sm:px-24 sm:min-w-full">
+        <div className="w-full h-auto border border-gray-300 sm:p-4">
+          <iframe
+            src="https://tally.so/embed/3lN8Qk?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
+            width="100%"
+            height="279"
+            title="이메일 수집"
+          ></iframe>
         </div>
       </div>
     </section>
