@@ -56,8 +56,8 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                온라인 계약서 변경 사항 논의와 검토 담당자 지정으로 계약서 업무
-                시간을 획기적으로 줄여보세요.
+                CLM 도구 도입을 통해 복잡한 계약서 업무를 단순화하고 획기적으로
+                시간을 줄여보세요.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -96,60 +96,62 @@ export default function Hero() {
           /> */}
           {/* Hero image replaced with image and text */}
           <div className="space-y-4">
-            <div className="flex flex-col sm:flex-row items-center mt-12 mb-12">
+            <div className="flex flex-col sm:flex-row mb-12">
               <img
                 src={"https://i.imgur.com/2jVKMHq.png"}
                 alt="Image description"
                 className="w-full sm:w-1/2 h-auto border border-gray-300"
               />
-              <div className="text-xl sm:text-2xl leading-normal sm:mx-8 mt-4">
+              <div className="text-xl sm:text-2xl leading-normal sm:mx-8">
                 <h3 className="text-2xl font-bold">
                   추적되지 않는 계약서 수정 조항들
                 </h3>
                 <p className="py-4">
-                  갑과 을간 계약서 협의 시, 서로 수정하고 수정된 내용 표시하는
-                  것 너무 피곤하죠. 심지어 어떤 담당자는 수정된 내용을
-                  표시하지도 않아 의도치 않은 함정을 만들기도 합니다. 이렇게
-                  모든 변경 내용 표시와 제안 내용을 서로가 명확하게 확인할 수
-                  있게 작성하는 것은 너무 어렵고 손이 많이 갑니다.
+                  계약서 협의 시, 수정하고 변경된 조항들 표기하는 쪽이나,
+                  확인하는 쪽 모두 번거롭습니다. 심지어 계약 업무에 익숙지
+                  않으면 수정된 내용을 표기하지 않아 확인하는 쪽은 무엇이
+                  변경되었는지 추적하기 위해 시간을 쓰고, 양쪽 커뮤니케이션
+                  비용이 늘어나게 됩니다. 이는 결국 전체 프로젝트 시간의 증가로
+                  이어지게 되죠.
                 </p>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row items-center mb-12">
+            <div className="flex flex-col sm:flex-row mb-12">
               <img
                 src={"https://i.imgur.com/EVROvvN.png"}
                 alt="Image description"
                 className="w-full sm:w-1/2 h-auto border border-gray-300"
               />
-              <div className="text-xl sm:text-2xl leading-normal sm:mx-8 mt-4">
+              <div className="text-xl sm:text-2xl leading-normal sm:mx-8">
                 <h3 className="text-2xl font-bold">
                   어지러운 계약서 파일 관리
                 </h3>
                 <p className="py-4">
                   우리는 모두 이렇게 계약서 파일을 관리해 본 적이 있습니다.
-                  아니라고 하지 마세요. 파일 이름 정하는 것도 어렵고, 파일
-                  저장했지만 어디에 보관해두었는지 기억도 나지 않지요. 그리고
-                  누군가 파일을 수정하고 저장했지만, 수정된 내용을 다른 사람들과
-                  공유하지 않았다면? 이런 경우가 종종 있죠.
+                  수정된 파일마다 파일 이름 정하는 것도 어렵고, 파일 저장했지만
+                  어느 폴더에, 어느 담당자 컴퓨터에 보관해두었는지 기억도 나지
+                  않지요. 그리고 누군가 파일을 수정하고 저장했지만, 수정된
+                  내용을 다른 사람들과 실시간으로 공유하는 것은 불가능에
+                  가깝습니다.
                 </p>
               </div>
-              <p className="text-xl sm:text-2xl leading-normal sm:mx-8 mt-4"></p>
+              <p className="text-xl sm:text-2xl leading-normal sm:mx-8"></p>
             </div>
-            <div className="flex flex-col sm:flex-row items-center mb-12">
+            <div className="flex flex-col sm:flex-row mb-12">
               <img
                 src={"https://i.imgur.com/HfOKv5d.png"}
                 alt="Image description"
                 className="w-full sm:w-1/2 h-auto border border-gray-300"
               />
-              <div className="text-xl sm:text-2xl leading-normal sm:mx-8 mt-4">
+              <div className="flex flex-col justify-start text-xl sm:text-2xl leading-normal sm:mx-8">
                 <h3 className="text-2xl font-bold">
                   번거로운 계약서 파일 첨부
                 </h3>
                 <p className="py-4">
-                  수정된 계약서 파일은 심지어 이메일로 주고 받게 됩니다. 종종
+                  수정된 계약서 파일은 보통 이메일로 주고 받게 됩니다. 종종
                   실수로 이전 버전의 계약서 파일을 보내기도 하고, 또는 첨부
-                  파일을 깜짝 할 때도 있죠. 이런 경우에는 누군가 실수로 수정된
-                  내용을 놓치게 되어 계약서 변경 사항을 놓치게 됩니다.
+                  파일을 깜빡 놓칠 때도 있죠. 변경 내용 수신하는 쪽에선 어떤
+                  메일의 어떤 첨부파일을 열어서 확인해야 할지 막막합니다.
                 </p>
               </div>
             </div>
