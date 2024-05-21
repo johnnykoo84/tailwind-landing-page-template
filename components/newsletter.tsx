@@ -7,7 +7,8 @@ export default function Newsletter() {
             src="https://tally.so/embed/3lN8Qk?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
             loading="lazy"
             width="100%"
-            height="279"
+            height="450"
+            className="h-[450px] sm:h-[320px] lg:h-[280px]"
             title="이메일 수집"
           ></iframe>
         </div>

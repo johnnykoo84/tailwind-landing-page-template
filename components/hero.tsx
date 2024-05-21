@@ -1,5 +1,4 @@
-import VideoThumb from "@/public/images/hero-image.png";
-import ModalVideo from "@/components/modal-video";
+"use client";
 
 export default function Hero() {
   return (
@@ -64,20 +63,27 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                <div>
+                {/* <div>
                   <a
                     className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
                     href="#0"
                   >
                     계약서 검토하기
                   </a>
-                </div>
+                </div> */}
                 <div>
                   <a
                     className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
                     href="#0"
+                    onClick={(event) => {
+                      event.preventDefault();
+                      window.alert(
+                        "현재 제품 개발을 위해 고객분들의 수요를 먼저 조사하고 있습니다. 제품 수요에 대해 말씀해 주시면 감사하겠습니다.",
+                      );
+                      window.scrollTo(0, document.body.scrollHeight);
+                    }}
                   >
-                    자세히 알아보기
+                    체험하기
                   </a>
                 </div>
               </div>
