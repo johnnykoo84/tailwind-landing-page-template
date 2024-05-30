@@ -5,7 +5,7 @@ export default function Testimonials() {
   return (
     <section className="relative">
       {/* Illustration behind content */}
-      <div
+      {/* <div
         className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32"
         aria-hidden="true"
       >
@@ -37,7 +37,7 @@ export default function Testimonials() {
             <circle cx="178" cy="481" r="40" />
           </g>
         </svg>
-      </div>
+      </div> */}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">

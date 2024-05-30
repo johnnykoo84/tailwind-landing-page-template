@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative">
       {/* Illustration behind hero content */}
-      <div
+      {/* <div
         className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
         aria-hidden="true"
       >
@@ -32,7 +32,7 @@ export default function Hero() {
             <circle cx="155" cy="443" r="64" />
           </g>
         </svg>
-      </div>
+      </div> */}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
